@@ -8,15 +8,15 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body style="background-color:rgb(54, 240, 40)">
-    <h1 style="text-align:center">AIM TRAINER</h1>
+<body>
+    <h1 style="text-align:center;">AIM TRAINER</h1>
     <p id="c" class="count">Remaining : 20</p>
     <div id="win">
         <br>
         <h1>Your Score </h1><br>
         <h1 id="score">0</h1><br>
         <button style="color:#040a24;background-color:gray" onclick="location.reload()">Play Again</h2><br>
-        <button style="color:#15bff7;background-color:gray" onclick="display()">LeaderBoard</h2>
+        <button style="color:#040a24;background-color:rgb(47, 170, 201);margin-left:2vw;" onclick="display()">LeaderBoard</h2>
     </div>
     <div id="scoreboard">
         <h2 style="text-align:center;">LeaderBoard</h2>
@@ -27,7 +27,18 @@
         <span class="namelist" id="p3"></span> <span class="ls" id="s3"></span><br>
         <span class="namelist" id="p4"></span> <span class="ls" id="s4"></span><br>
         <span class="namelist" id="p5"></span> <span class="ls" id="s5"></span><br>
+        <button style="margin-top:8vh;margin-left:11vw;color:#040a24;background-color:gray" onclick="stopdisplay()">Ok</h2>
     </div>
-    <div id="a" class="piece" onclick="change()"></div>
+    <div id="a" class="piece" onclick="change()">
+        <div class="p"> </div>
+        <div class="q"></div>
+        <div class="r"></div>
+        <div class="s"></div>
+        <div class="t"></div>
+        <div class="u"></div>
+        <div class="v"></div>
+        <div class="w"></div>
+        <div class="x"></div>
+    </div>
 </body>
 </html>
